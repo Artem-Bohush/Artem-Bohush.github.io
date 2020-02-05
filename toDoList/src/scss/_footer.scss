@@ -1,0 +1,15 @@
+footer {
+  min-height: 50px;
+  border-top: 1px solid #bbcde0;
+  font-size: 15px;
+  margin-top: auto;
+  padding-top: 12px;
+  .author {
+    display: block;
+    padding-left: 20px;
+    a {
+      text-decoration: none;
+      font-weight: 600;
+    }
+  }
+}
