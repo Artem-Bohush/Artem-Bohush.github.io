@@ -1,0 +1,33 @@
+.drop-list-nav {
+    display: none;
+    position: relative;
+    font-size: 20px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 10;
+}
+
+.drop-list-nav .mob-list {
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-65%);
+    left: 0;
+}
+
+.drop-list-nav .mob-list li {
+    text-align: center;
+}
+
+.drop-list-nav .mob-list li a {
+    display: block;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 0;
+}

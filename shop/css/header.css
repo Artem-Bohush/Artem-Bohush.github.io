@@ -1,0 +1,214 @@
+/* верхняя часть хедера */
+header .bg {
+    background-color: #4CB1CA;
+}
+
+header .header-top {
+    min-height: 43px;
+}
+
+header .header-top .langs {
+    font-size: 13px;
+    float: left;
+    margin-top: 10px;
+}
+
+header .header-top .langs .langs-item {
+    display: inline-block;
+    vertical-align: top;
+}
+
+header .header-top .langs .langs-item:not(:nth-last-child(1)) {
+    margin-right: 21px;
+}
+
+header .header-top .langs .langs-item span {
+    color: #bef2ff;
+}
+
+header .header-top .langs .langs-item a {
+    color: #ffffff;
+}
+
+header .header-top .langs .langs-item a:after {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+    border-radius: 2px;
+    margin-left: 5px;
+    position: relative;
+    top: -2px;
+}
+
+header .header-top .header-links {
+    float: right;
+    margin-top: 7px;
+    margin-bottom: 0px;
+    padding-left: 0;
+}
+
+header .header-links li {
+    display: inline-block;
+}
+
+header .header-links li:not(:nth-child(1)) {
+    margin-left: 11px;
+}
+
+header .header-links li a {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+header .header-links li:not(:nth-last-child(1))::after {
+    content: "";
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border-right: 1px #BFF2FF solid;
+    position: relative;
+    top: 2px;
+}
+
+/* нижняя часть хедера */
+
+header .header-bottom h1 {
+    /* display: inline-block; */
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #656565;
+    vertical-align: top;
+    margin: 0;
+    /* position: relative;
+    top: 24px; */
+}
+
+header .header-bottom {
+    height: 107px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color:#A3FFFF; */
+}
+
+header .header-bottom .header-categories {
+    /* display: inline-block; */
+    /* vertical-align: top; */
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-left: 0;
+    /* position: relative; */
+    /* left: 55px;
+    top: 38px; */
+}
+
+header .header-bottom .header-categories li:not(:nth-last-child(1)) {
+    margin-right: 21px;
+}
+
+header .header-bottom .header-categories li {
+    display: inline-block;
+}
+
+header .header-bottom .header-categories li a {
+    color: #676767;
+    font-weight: bold;
+}
+
+/* прававя часть */
+/* форма поиска */
+header .header-bottom .search {
+    border: 1px solid #C6C6C6;
+    max-width: 174px;
+    height: 29px;
+    float: right;
+    margin-top: 4px;
+    margin-right: 14px;
+}
+
+header .header-bottom .search input {
+    width: 85%;
+    height: 100%;
+    vertical-align: top;
+    padding-left: 9px;
+}
+
+header .header-bottom .search input:focus::placeholder {
+    font-size: 13px;
+    color: transparent;
+}
+
+header .header-bottom .search button {
+    width: 15px;
+    height: 15px;
+    background-image: url('../img/png/sprite.png');
+    background-position: -17px -9px;
+    vertical-align: top;
+    margin-top: 7px;
+}
+
+/* корзина */
+
+header .header-bottom .basket {
+    float: right;
+}
+
+header .header-bottom .basket span {
+    float: right;
+    color: #656565;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative;
+    top: 7px;
+}
+
+header .header-bottom .basket button {
+    float: right;
+    width: 36px;
+    height: 36px;
+}
+
+header .header-bottom .basket button:nth-child(3) {
+    background-image: url('../img/png/sprite.png');
+    background-position: -87px -9px;
+    margin-right: 4px;
+}
+
+header .header-bottom .basket button:nth-child(4) {
+    background-image: url('../img/png/sprite.png');
+    background-position: -41px -9px;
+    margin-right: 3px;
+}
+
+/* для адаптива */
+
+.hidden {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+header .header-top .lang-nav {
+    display: none;
+}
+
+header .header-top .curr-nav {
+    display: none;
+}
+
+header .header-bottom .mob-nav {
+    display: none;
+    position: relative;
+}
+
+.mob-version {
+    display: none;
+}

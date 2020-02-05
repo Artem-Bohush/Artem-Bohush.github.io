@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+/* служебный контейнер для центровки */
+.content {
+    max-width: 1055px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+input {
+    border: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* отмена крестика для инпута */
+input[type="search"]::-webkit-search-cancel-button {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}

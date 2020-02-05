@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,latin-ext');
+@import 'global.css';
+@import './animations.css';
+@import 'header.css';
+@import '../js/libs/slick-1.8.1/slick/slick.css';
+@import 'slider.css';
+@import 'content.css';
+@import 'footer.css';
+@import './menu.css';
+@import 'adapt-header.css';
+@import 'adapt-content.css';
+@import 'adapt-footer.css';

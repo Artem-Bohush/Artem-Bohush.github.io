@@ -1,0 +1,297 @@
+/* верхняя часть футера */
+footer .bg-footer-one {
+    background-color: #4CB1CA;
+}
+
+footer .top-footer {
+    min-height: 106px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer .top-footer span {
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 20px;
+    font-weight: 350;
+}
+
+footer .top-footer .shipping {
+    display: flex;
+    align-items: center;
+}
+
+footer .top-footer .shipping button {
+    width: 65px;
+    height: 65px;
+    background-image: url('../img/png/sprite.png');
+    background-position: -141px -8px; 
+}
+
+footer .top-footer .call {
+    display: flex;
+    align-items: center;
+}
+
+footer .top-footer .call button {
+    width: 65px;
+    height: 65px;
+    background-image: url('../img/png/sprite.png');
+    background-position: -226px -8px;
+}
+
+/* средняя часть футера */
+footer .bg-footer-two {
+    background-color: #39A0B9;
+}
+
+footer .center-footer {
+    min-height: 335px;
+    color: #FFFFFF;
+    padding: 0;
+}
+
+footer .center-footer .all-together {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 42px;
+    padding-left: 15px;
+    padding-right: 15px; 
+}
+
+footer .center-footer .first {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    min-height: 260px;
+}
+
+footer .center-footer .first .photos {
+    border-top: 1px solid #4CB1CA;
+    border-bottom: 1px solid #4CB1CA;
+    width: 233px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+footer .center-footer .first .photos img:nth-child(-n+4) {
+    margin-bottom: 4px; 
+}
+
+footer .center-footer .first .photos img:nth-child(-n+3) {
+    margin-right: 7px;
+    margin-top: 8px;
+}
+
+footer .center-footer .first .photos img:nth-child(n+5):nth-child(-n+7) {
+    margin-right: 7px; 
+}
+
+footer .center-footer .first span:nth-child(1) {
+    width: 240px;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+footer .center-footer .first span:nth-child(2) {
+    margin-top: 15px;
+}
+
+footer .center-footer .first span:nth-child(n+2) {
+    font-size: 13px;
+}
+
+footer .center-footer .first button {
+    width: 47px;
+    height: 23px;
+    background-image: url('../img/png/sprite.png');
+    background-position: -34px -61px;
+    margin-top: 2px;
+}
+
+footer .center-footer .second {
+    width: 230px;
+    min-height: 260px;
+}
+
+footer .center-footer .second span {
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+footer .center-footer .second div:nth-child(2) {
+    display: flex;
+    margin-top: 27px;
+}
+
+footer .center-footer .second div:nth-child(3) {
+    display: flex;
+    margin-top: 26px;
+}
+
+footer .center-footer .second p {
+    font-size: 13px;
+    width: 170px;
+    margin: 0;
+    margin-left: 13px;
+}
+
+footer .center-footer .second p a {
+    color: #9AE2F4;
+}
+
+footer .center-footer .second button {
+    width: 43px;
+    height: 43px;
+    background-image: url('../img/png/sprite.png');
+    background-position: -314px -19px;
+}
+
+footer .center-footer .third {
+    width: 190px;
+    min-height: 260px;
+}
+
+footer .center-footer .third span {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 42px;
+}
+
+footer .center-footer .third ul {
+    font-size: 13px;
+    padding: 0;
+    margin-top: 25px;
+    line-height: 1.8;
+}
+
+footer .center-footer .third ul li a {
+    color: #FFFFFF;
+}
+
+footer .center-footer .third ul li a:before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+    border-radius: 2px;
+    margin-right: 12px;
+    position: relative;
+    top: -1px;
+}
+
+footer .center-footer .fourth {
+    width: 200px;
+    min-height: 260px;
+}
+
+footer .center-footer .fourth div {
+    border-top: 1px solid #4CB1CA;
+    padding-top: 19px;
+    width: 196px;
+}
+
+footer .center-footer .fourth div button:nth-child(-n+6) {
+    margin-right: 6px;
+}
+
+footer .center-footer .fourth span {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 42px;
+}
+
+footer .center-footer .fourth ul {
+    font-size: 13px;
+    padding: 0;
+    margin-bottom: 12px;
+    margin-top: 25px;
+    line-height: 1.8;
+}
+
+footer .center-footer .fourth div button:nth-child(1) {
+    width: 36px;
+    height: 36px;
+    background-image: url('../img/png/sprite.png');
+    background-position: -17px -100px;
+}
+
+footer .center-footer .fourth div button:nth-child(2) {
+    width: 36px;
+    height: 36px;
+    background-image: url('../img/png/sprite.png');
+    background-position: -63px -100px;
+}
+
+footer .center-footer .fourth div button:nth-child(3) {
+    width: 36px;
+    height: 36px;
+    background-image: url('../img/png/sprite.png');
+    background-position: -110px -100px;
+}
+
+footer .center-footer .fourth div button:nth-child(4) {
+    width: 36px;
+    height: 36px;
+    background-image: url('../img/png/sprite.png');
+    background-position: -155px -100px;
+}
+
+/* нижняя часть футера */
+footer .bg-footer-three {
+    background-color: #0B4B5A;
+}
+
+footer .bottom-footer {
+    min-height: 61px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer .bottom-footer span {
+    font-size: 13px;
+    color: #8ADCF0;
+    margin-top: 21px;
+    height: 20px;
+}
+
+footer .bottom-footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    padding: 0;
+}
+
+footer .bottom-footer ul li a {
+    color: #8ADCF0;
+}
+
+footer .bottom-footer ul li:not(:nth-last-child(1))::after {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 13px;
+    border-right: 1px #39A0B9 solid;
+    position: relative;
+    top: 2px;
+}
+
+footer .bottom-footer ul li:not(:nth-child(1)) {
+    margin-left: 14px;
+}

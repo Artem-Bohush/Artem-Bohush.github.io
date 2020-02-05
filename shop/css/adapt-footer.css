@@ -1,0 +1,117 @@
+@media all and (max-width: 950px) {
+
+    footer .top-footer {
+        display: flex;
+        flex-direction: column;
+        min-height: 170px;
+    }
+
+    footer .top-footer .shipping {
+        margin-top: 10px;
+    }
+
+    footer .top-footer .call {
+        margin-bottom: 10px;
+    }
+
+    footer .top-footer .call button {
+        margin-right: 28px;
+    }
+
+    footer .top-footer .call span {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+    footer .center-footer .all-together {
+        width: 520px;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+}
+
+@media all and (max-width: 830px) {
+
+    footer .bottom-footer {
+        max-width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
+    }
+
+    footer .bottom-footer span {
+        margin: auto;
+        text-align: center;
+    }
+
+    footer .bottom-footer ul {
+        margin: auto;
+    }
+}
+
+@media all and (max-width: 475px) {
+
+    footer .bottom-footer ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .bottom-footer ul li:not(:nth-last-child(1))::after {
+        display: none;
+    }
+
+    footer .bottom-footer ul li {
+        margin-top: 5px;
+    }
+
+    footer .bottom-footer span {
+        margin-top: 5px;
+    }
+}
+
+@media all and (max-width: 520px) {
+
+    footer .center-footer .all-together {
+        width: 300px;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    footer .center-footer .first {
+        margin: auto;
+    }
+
+    footer .center-footer .second {
+        margin: auto;
+    }
+
+    footer .center-footer .third {
+        min-height: 220px;
+        margin: auto;
+    }
+
+    footer .center-footer .fourth {
+        margin: auto;
+    }
+}
+
+@media all and (max-width: 490px) {
+
+    footer .top-footer button {
+        display: none;
+    }
+
+    footer .top-footer .shipping span {
+        margin: 0;
+        text-align: center;
+    }
+
+    footer .top-footer .call span {
+        margin: 0;
+        text-align: center;
+    }
+
+    footer .top-footer {
+        min-height: 100px;
+    }
+}
