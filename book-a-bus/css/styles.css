@@ -1,0 +1,519 @@
+@import './fontawesome/all.min.css';
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css';
+
+body {
+  position: relative;
+  padding-top: 100px;
+}
+
+/* header */
+
+.header {
+  min-height: 90px;
+  background-color: #fff;
+  padding: 5px 0;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);
+  top: 0;
+}
+
+.header .logo {
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+}
+
+.header .logo span {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  color: #07116B;
+}
+
+.header .logo a {
+
+}
+
+.header .logo a img {
+  width: 100%;
+}
+
+.header .contacts {
+  padding-top: 3px;
+}
+
+.header .contacts li {
+  padding-top: 2px;
+}
+
+.header .contacts a {
+  color:#07116B;
+  font-weight: bold;
+}
+
+.header .contacts ul {
+  list-style: none;
+  padding-left: 160px;
+  margin: 0;  
+}
+
+.header .language {
+  float: right;
+  padding-top: 8px;
+}
+
+.header .language button {
+  display: block;
+  border: none;
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  color: #07116B;
+  margin-top: 5px;
+}
+
+.header .language button:focus {
+  outline:0;
+}
+
+.active_language {
+  text-decoration: underline;
+}
+
+/* promo */
+
+.promo {
+  min-height: 575px;
+  background-image: url('../img/promo_2.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 230px;
+  box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.7);
+}
+
+.promo .title {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.959);
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+}
+
+/* info */
+
+.card_content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.5);
+  border-radius: 5px;
+  padding: 30px 50px;
+}
+
+.card_content .logistics_services {
+  border-bottom: 1px solid #ECECEC;
+}
+
+.card_content .logistics_services h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 26px;
+}
+
+.card_content .logistics_services p {
+  font-size: 18px;
+}
+
+.card_content .equipment {
+  border-bottom: 1px solid #ECECEC;
+}
+
+.card_content .equipment p:nth-child(1) {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.card_content .price {
+  border-bottom: 1px solid #ECECEC;
+}
+
+.card_content .price p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#special_col {
+  padding-right: 9px;
+}
+
+/* slider */
+
+.slider {
+  width: 550px;
+  margin: 40px auto 0 auto;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.horizontal {
+  padding: 160.5px 0;
+}
+
+.horizontal_2 {
+  padding: 132.5px 0;
+}
+
+.irregular_block_1 {
+  background-color: #F0F0F0;
+}
+
+.irregular_block_2 {
+  height: 733px;
+  background-color: #F0F0F0;
+}
+
+.irregular_img {
+  height: 100%;
+  margin: 0 auto;
+}
+
+.why_we {
+  padding-top: 40px;
+}
+
+.why_we h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.why_we p {
+  text-align: center;
+}
+
+/* @import './media.css'; */
+
+@media all and (max-width: 1199px) {
+  /* header */
+  
+  .header {
+    padding-top: 7px;
+    padding-bottom: 10px;
+  }
+  
+  .header .logo {
+
+  }
+  
+  .header .logo span {
+
+  }
+  
+  .header .logo a {
+  
+  }
+  
+  .header .logo a img {
+
+  }
+  
+  .header .contacts {
+
+  }
+  
+  .header .contacts li {
+
+  }
+  
+  .header .contacts a {
+
+  }
+  
+  .header .contacts ul {
+    padding-left: 130px;
+  }
+  
+  .header .language {
+ 
+  }
+  
+  .header .language button {
+  
+  }
+  
+  .active {
+
+  }
+
+  /* promo */
+
+  .promo {
+    padding-top: 180px;
+    min-height: 480px;
+  }
+
+  .promo .title {
+    font-size: 40px;
+  }
+}
+
+@media all and (max-width: 991px) {
+  /* header */
+  
+  .header {
+    padding-top: 7px;
+    padding-bottom: 10px;
+  }
+  
+  .header .logo {
+
+  }
+  
+  .header .logo span {
+
+  }
+  
+  .header .logo a {
+  
+  }
+  
+  .header .logo a img {
+
+  }
+  
+  .header .contacts {
+
+  }
+  
+  .header .contacts li {
+
+  }
+  
+  .header .contacts a {
+
+  }
+  
+  .header .contacts ul {
+    padding-left: 40px;
+  }
+  
+  .header .language {
+ 
+  }
+  
+  .header .language button {
+  
+  }
+  
+  .active {
+
+  }
+
+  /* promo */
+
+  .promo {
+    padding-top: 130px;
+    min-height: 370px;
+  }
+
+  .promo .title {
+    font-size: 38px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  /* header */
+  
+  .header {
+    padding-top: 7px;
+    padding-bottom: 10px;
+  }
+  
+  .header .logo {
+
+  }
+  
+  .header .logo span {
+    margin-top: 5px;
+  }
+  
+  .header .logo a {
+  
+  }
+  
+  .header .logo a img {
+
+  }
+  
+  .header .contacts {
+
+  }
+  
+  .header .contacts li {
+
+  }
+  
+  .header .contacts a {
+
+  }
+  
+  .header .contacts ul {
+    padding-left: 20px;
+  }
+  
+  .header .language {
+ 
+  }
+  
+  .header .language button {
+    font-size: 16px;
+  }
+  
+  .active {
+
+  }
+
+  /* promo */
+
+  .promo {
+    padding-top: 80px;
+    min-height: 280px;
+  }
+
+  .promo .title {
+    font-size: 30px;
+  }
+
+  .slider {
+    width: 410px;
+  }
+
+  .card_content .logistics_services h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .why_we {
+    padding-top: 25px;
+  }
+  
+  .why_we h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .why_we p {
+
+  }
+}
+
+@media all and (max-width: 575px) {
+
+  body {
+    padding-top: 165px;
+  }
+
+  /* header */
+  
+  .header {
+    padding-top: 7px;
+    padding-bottom: 10px;
+  }
+  
+  .header .logo {
+
+  }
+  
+  .header .logo span {
+    margin-top: 0px;
+  }
+  
+  .header .logo a {
+  
+  }
+  
+  .header .logo a img {
+
+  }
+  
+  .header .contacts {
+    
+  }
+  
+  .header .contacts li {
+
+  }
+  
+  .header .contacts a {
+
+  }
+  
+  .header .contacts ul {
+    padding-left: 0px;
+  }
+  
+  .header .language {
+ 
+  }
+  
+  .header .language button {
+    font-size: 16px;
+  }
+  
+  .active {
+
+  }
+
+  /* promo */
+
+  .promo {
+    padding-top: 40px;
+    min-height: 156px;
+  }
+
+  .promo .title {
+    font-size: 22px;
+  }
+
+  .slider {
+    width: 250px;
+  }
+
+  .card_content {
+    padding: 30px 20px;
+  }
+
+  .card_content ul {
+    padding-left: 25px;
+  }
+
+  .card_content .logistics_services h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .horizontal {
+    padding: 73px 0;
+  }
+  
+  .horizontal_2 {
+    padding: 60px 0;
+  }
+  
+  .irregular_block_2 {
+    height: 333px;
+  }
+
+  .why_we {
+    padding-top: 25px;
+  }
+  
+  .why_we h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  .why_we p {
+    font-size: 16px;
+  }
+}
+

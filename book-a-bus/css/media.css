@@ -1,0 +1,51 @@
+@media all and (max-width: 1200px) {
+  /* header */
+  
+  .header {
+
+  }
+  
+  .header .logo {
+
+  }
+  
+  .header .logo span {
+
+  }
+  
+  .header .logo a {
+  
+  }
+  
+  .header .logo a img {
+
+  }
+  
+  .header .contacts {
+
+  }
+  
+  .header .contacts li {
+
+  }
+  
+  .header .contacts a {
+
+  }
+  
+  .header .contacts ul {
+    padding-left: 0;
+  }
+  
+  .header .language {
+ 
+  }
+  
+  .header .language button {
+
+  }
+  
+  .active {
+
+  }
+}

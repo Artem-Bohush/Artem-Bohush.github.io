@@ -1,0 +1,5 @@
+попробуй пошаманить с max-height и min-height, при этом width: auto
+
+https://jsfiddle.net/yaskin/ozLyjts5/4/
+
+https://kievtrans.kiev.ua/arenda-avtobusa-zakaz-v-kieve/
